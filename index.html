@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muito top</title>
+    <title>Muito top Sexo</title>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <style>
         body {
             padding: 0px;
@@ -17,22 +20,43 @@
             height: 100%;
         }
 
-        #voltar {
+        button {
             position: absolute;
-            padding: 50px;
-            border-radius: 50%;
+            top: 10%;
+            left: 1%;
+            border: 1px;
+            border-radius: 50px;
+            background-color: rgb(33, 94, 199);
+            border-color: rgb(33, 94, 199);
+            text-align: center;
+            font-size: 10px;
+            width: 50px;
+            transition: all 0.5s;
+            cursor: pointer;
+        }
+
+
+        button:hover {
+            width: 35px;
+            padding-right: 20px;
         }
     </style>
 </head>
 
 <body>
-    <div id="voltar">
-        <a
-            href="#" onclick="window.close(); return false;">Voltando
-            nessa poha
-        </a>
-    </div>
+
+    <button type="button" onclick="setTimeout(() => {
+        window.close();
+    }, (300)); return false;"></button>
+        <span class="material-symbols-outlined">undo</span>
+    </button>
+
     <iframe src="https://eyes.nasa.gov/apps/exo/#/planet/Kepler-186_f" frameborder="0" id="iframe-nasa-eyes"></iframe>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+
 
 </body>
 
