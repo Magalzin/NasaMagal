@@ -54,7 +54,7 @@
         Voltar à Nave
     </button>
 
-    <iframe src="https://eyes.nasa.gov/apps/exo/#/planet/Kepler-186_f" frameborder="0" id="iframe-nasa-eyes"></iframe>
+    <iframe src="https://eyes.nasa.gov/apps/exo/#/planet/HD_17156_b" frameborder="0" id="iframe-nasa-eyes"></iframe>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
